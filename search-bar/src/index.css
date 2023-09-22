@@ -1,0 +1,22 @@
+:root{
+  background-color: blanchedalmond;
+ 
+}
+ .style{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+
+ }
+ button{
+  background-color: gray;
+  margin-left:px;
+  margin-top: 2px;
+ }
+.main{
+  width: 165px;
+}
+
+    
