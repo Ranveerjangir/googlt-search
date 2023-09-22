@@ -25,7 +25,6 @@ function App() {
 { <script async src="https://cse.google.com/cse.js?cx=f5d309ab72fb0431a">
 </script>
 }      <div className='main'>
-  {/* <img src="c:\Users\Admin\AppData\Local\Temp\Rlogo.png" alt="" /> */}
       <input type="text" placeholder='search' value={search} onChange={(e) => setSearch(e.target.value)} />
       </div>
       <button onClick={handleSearch}>Search</button>
