@@ -22,9 +22,8 @@ function App() {
   console.log(finaldata)
   return (
     <>  
-{ <script async src="https://cse.google.com/cse.js?cx=f5d309ab72fb0431a">
-</script>
-}      <div className='main'>
+
+      <div className='main'>
       <input type="text" placeholder='search' value={search} onChange={(e) => setSearch(e.target.value)} />
       </div>
       <button onClick={handleSearch}>Search</button>
@@ -39,7 +38,11 @@ function App() {
           <a href={value.link}>click</a> 
         </div>
         )}):""}
+
+
         </div>
+        { <script async src="https://cse.google.com/cse.js?cx=f5d309ab72fb0431a">
+</script>}
     </>
   )
 }
